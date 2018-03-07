@@ -1,0 +1,9 @@
+
+include 'reactive-model'
+include 'reactive-commons'
+include 'reactive-foundation'
+include 'reactive-api'
+include 'reactive-core'
+//include 'reactive-core:reactive-ws'
+
+rootProject.name = 'org.reactive.spring'

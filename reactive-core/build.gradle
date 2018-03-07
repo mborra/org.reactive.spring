@@ -1,0 +1,12 @@
+
+	apply plugin: 'application'
+
+	dependencies {
+	    compile project(':reactive-model')
+	    compile project(':reactive-commons')
+	    compile project(':reactive-api') 
+	}
+
+	bootJar {
+		mainClassName = 'org.reactive.spring.runner.Application'
+	}
